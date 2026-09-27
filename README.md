@@ -22,5 +22,49 @@ A production-grade RESTful API service built as part of the FlyRank AI Backend E
 
 ### 1. Clone & Navigate
 ```bash
-git clone [https://github.com/RayyanAHR/FlyRank-Internship---CRUD-API-thru-FastAPI.git](https://github.com/RayyanAHR/FlyRank-Internship---CRUD-API-thru-FastAPI.git)
+git clone https://github.com/RayyanAHR/FlyRank-Internship---CRUD-API-thru-FastAPI.git
 cd FlyRank-Internship---CRUD-API-thru-FastAPI
+
+```
+
+### 2. Set up Virtual Environment
+
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On Linux/macOS:
+source venv/bin/activate
+
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+```
+
+### 4. Environment Configuration
+
+Create a `.env` file in the root directory:
+
+```env
+DATABASE_URL=postgresql://user:password@localhost:5432/dbname
+
+```
+
+### 5. Start the Server
+
+```bash
+uvicorn app.main:app --reload
+
+```
+
+Open `[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)` in your browser to view and test endpoints interactively.
+
+```
+
+Once you hit **Commit changes**, GitHub will display it formatted cleanly on your project page[cite: 3]!
+
+```
