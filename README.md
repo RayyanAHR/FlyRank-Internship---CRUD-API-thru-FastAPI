@@ -1,8 +1,3 @@
----
-
-### File 2: For `FlyRank-Internship---CRUD-API-thru-FastAPI`
-
-```markdown
 # FlyRank Internship - Assignment 1: CRUD API with FastAPI
 
 A production-grade RESTful API service built as part of the FlyRank AI Backend Engineering Internship. Demonstrates modular FastAPI application structure, PostgreSQL database integration, and strict Pydantic data models.
